@@ -1,0 +1,23 @@
+Combinators
+
+1. Is a combinator
+2. Not a combinator
+3. Is a combinator
+4. Is a combinator
+5. Not a combinator
+
+Normal form or diverge?
+
+1. Cannot be reduced. Doesn't diverge
+2. Diverges
+3. Reduces to normal form
+
+Beta reduce
+
+1. z
+2. bb
+3. qq
+4. yy
+5. yy
+6. aac
+7. lambda z. z'a
