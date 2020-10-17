@@ -1,0 +1,8 @@
+1. Mood
+2. Blah or Woot
+3. It should be
+   changeMood :: Mood -> Mood
+4.
+   changeMood :: Mood -> Mood
+   changeMood Woot = Blah
+   changeMood Blah = Woot
