@@ -1,0 +1,27 @@
+Reading Syntax
+
+1.
+a) Correct
+b) Not correct. Should be (++)
+c) Correct
+d) Not correct. Should close quotes.
+e) Not correct. Should be "hello" !! 4
+f) Correct
+g) Not correct. 4 should not be in quotes
+h) Correct
+
+2.
+a) d)
+b) c)
+c) e)
+d) a)
+e) b)
+
+Building functions
+
+1.
+a) "Curry is awesome" ++ "!"
+b) "Curry is awesome!" !! 4
+c) drop 9 "Curry is awesome!"
+
+2. 3. 4. 5. 6. See respective source files
