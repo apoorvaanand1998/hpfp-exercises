@@ -26,3 +26,14 @@
 9. Check out myAbs.hs
 
 10. Check out myTF.hs
+
+Correcting Syntax
+
+Check respective source files
+
+Match the function names to their types
+
+1) c)
+2) b)
+3) a)
+4) d)
