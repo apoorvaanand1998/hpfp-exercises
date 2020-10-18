@@ -1,0 +1,28 @@
+1. [a] -> Int;
+   any number of arguments, as long as they are of the same type;
+   Int
+
+2. a) 5
+   b) 3
+   c) 2
+   d) 5
+
+3. The second one returns an error because length doesn't return a Fractional Int.
+
+4. Use `div` infix function instead
+
+5. Bool; True
+
+6. Boot; False
+
+7. a) Works. Reduces to True
+   b) Doesn't work. List has items of different types
+   c) Works. Reduces to 5
+   d) Works. Reduces to False
+   e) Doesn't work. 9 is not a Bool
+
+8. Check out isPal.hs
+
+9. Check out myAbs.hs
+
+10. Check out myTF.hs
