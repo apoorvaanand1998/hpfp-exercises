@@ -1,0 +1,1 @@
+justToCheck = \ x -> x

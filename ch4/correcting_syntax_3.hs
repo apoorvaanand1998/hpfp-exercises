@@ -1,0 +1,1 @@
+alternateHead = \ (x : xs) -> x
