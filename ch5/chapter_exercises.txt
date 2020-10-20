@@ -95,6 +95,14 @@ Look at respective source files
 
 Type-Kwon-Do
 
+1. h x = g $ f x
+
+2. e x = w $ q x
+
+3. xform (x, y) = (xz x, yz y)
+
+4. munge f1 ft x = fst $ ft $ f1 x
+
 
    
    
