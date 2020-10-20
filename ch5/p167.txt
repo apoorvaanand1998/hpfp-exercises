@@ -1,0 +1,22 @@
+1. Tried it. Realized it was impossible :)
+
+2. I'm guessing that the two possible implementations are
+   (i) returning the first argument
+   (ii) returning the second argument
+
+   So it'd be something like
+
+   f :: a -> a -> a
+   f x y = x
+   (or)
+   f x y = y
+
+   Cannot violate the constraints of parametrically
+   polymorphic values once again.
+
+3. f :: a -> b -> b
+   f x y = y
+
+   There's only one implementation to the function with
+   the above type signature. This behavior does not change
+   if the types of a and b changes.
