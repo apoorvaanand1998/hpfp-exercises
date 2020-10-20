@@ -1,0 +1,100 @@
+Multiple choice
+
+1. c)
+2. a)
+3. b)
+4. c)
+
+Determine the type
+
+1. a) 54; Num
+   b) (0, "doge"); Num a => (a, [Char]) -- tuple
+   c) (0, "doge"); (Integer, [Char])
+   d) False; Bool
+   e) 5; Int
+   f) False; Bool
+
+2. Num a => a
+
+3. z :: Num a => a -> a
+
+4. Fractional a => a
+
+5. [Char]
+
+Does it compile?
+
+1. Doesn't compile because bigNum doesn't take an argument
+   but is given one (10, in the second line)
+
+   bigNum = (^) 5 $ 10
+   wahoo = bigNum
+
+2. Does compile
+
+3. Does not compile because in c, b is applied to 10
+   b is a number that cannot be applied to 10
+
+   Maybe they meant partial application of a
+
+   a = (+)
+   b = 5
+   c = a 10
+   d = c 200
+
+   -- d should be 210
+
+4. Doesn't compile. Because c is out of scope
+
+Type variable or specific type constructor
+
+2. zed - Fully polymorphic
+   Zed, Blah - Concrete
+
+3. a - Fully polymoprhic
+   b - Constrained
+   C - Concrete
+
+4. f, g - Fully polymorphic
+   C - Concrete
+
+Write a type signature
+
+1. functionH :: [a] -> a
+
+2. functionC :: Ord a => a -> a -> Bool
+
+3. functionS :: (a, b) -> b
+
+Given a type, write a function
+
+1. i x = x
+
+2. c x y = x
+
+3. Yes
+   c'' x y = x
+
+4. c' x y = y
+
+5. r x = x
+   r x = tail x
+   r x = take 4 x -- can be any number
+   r x = reverse x
+
+6. co f1 f2 = \x -> f1 (f2 x)
+   -- Thank you Magesh :D
+
+7. a f1 x = x
+
+8. a' f x = f x
+
+Fix it
+
+Look at respective source files
+
+Type-Kwon-Do
+
+
+   
+   
