@@ -1,0 +1,14 @@
+1. myConcat :: [Char] -> [Char]
+   because " yo" is a [Char]
+
+2. myMult :: Fractional a => a -> a
+   because of the presence of "/"
+
+3. myTake :: Int -> [Char]
+   because of take's type signature
+
+4. myCom :: Int -> Bool
+   because length returns Int
+
+5. myAlph :: Char -> Bool
+   because 'z' is a Char
