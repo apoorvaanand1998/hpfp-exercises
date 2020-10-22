@@ -1,0 +1,10 @@
+1. Will work. Returns 5, because length returns Int which implements
+   the typeclass Ord, which is what max expects.
+
+2. Will work. Returns LT, because compare expects Ord and Num defaults
+   to Integer which implements the typeclass Ord.
+
+3. Does not work. Both arguments are not of same type.
+
+4. Will work. Returns False, because the Nums default to Integer which
+   implements Ord.
