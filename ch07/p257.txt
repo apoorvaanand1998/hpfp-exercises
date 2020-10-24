@@ -1,0 +1,5 @@
+1. a) k :: (a, b) -> a
+   b) [Char] (String). No
+   c) k3
+
+2. f (x, y, z) (x', y', z') = ((x, x'), (z, z'))
