@@ -1,0 +1,62 @@
+Multiple choice
+
+1. c)
+2. b)
+3. a)
+4. c)
+5. a)
+
+Does it typecheck?
+
+1. Doesn't work. Can fix by adding "deriving (Show)" to the data line
+
+2. Doesn't work. Can fix by adding "deriving (Show, Eq)"
+
+3. a) settleDown :: Mood -> Mood
+   b) Doesn't typecheck. Need a Mood value instead of an Integer
+   c) Doesn't typecheck. Need to add "deriving (Show, Eq, Ord)"
+
+4. Doesn't work. s1 needs another String (Object) added to
+   the data constructor Sentence (Or you can use s1's partially applied
+   data constructor like so - 's1 "saliva"')
+
+Given a datatype declaration, what can we do?
+
+1. Doesn't typecheck. Haskell doesn't automatically convert
+   [Char] (String) to Rocks and Bool to Yeah
+2. Does typecheck
+3. Does typecheck
+4. Doesn't typecheck because Papu doesn't derive Ord
+
+Match the types
+
+1. Replacing it doesn't work. i = 1 requires the result to be
+   of the typeclass Num
+
+2. Doesn't work. Because f needs to be of typeclass Fractional
+
+3. Works
+
+4. Works
+
+5. Works. We made the constraint more specific
+
+6. Works
+
+7. Doesn't work. The result is always an Int, so with the changed
+   signature if we gave any other argument type, it wouldn't work
+
+8. Doesn't work. Try giving sigmund' a Fractional argument and see
+   if it type checks (it doesn't)
+
+9. Works. Int implements Ord
+
+10. Works
+
+11. Doesn't work. signifier could be given a list of Nums
+
+Type-Kwon-Do Two
+
+1. chk f a b = (==) b $ f a
+
+2. arith f i a = f a
