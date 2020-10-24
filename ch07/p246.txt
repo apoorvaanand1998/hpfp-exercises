@@ -1,0 +1,7 @@
+1. All of them are equivalent
+
+2. d)
+
+3. a) f = \n -> n + 1
+   b) addFive = (\x y -> (if x > y then y else x) + 5)
+   c) mFlip f x y = f y x
