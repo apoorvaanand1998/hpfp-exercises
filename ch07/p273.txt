@@ -1,0 +1,17 @@
+1. It is always going to give us an 'F'
+
+2. It does typecheck but it does not work the same
+
+   If y >= 0.7 came before y >= 0.9 then in that case,
+   that would be the case that would get matched and we
+   would instead get a 'C' for x = 90.
+
+3. b)
+
+4. 5. Since reverse expects [a] and we test [a] for equality
+   pal :: Eq a => [a] -> Bool
+
+6. c)
+
+7. 8. numbers :: (Num a, Ord a, Num b) => a -> b
+   
