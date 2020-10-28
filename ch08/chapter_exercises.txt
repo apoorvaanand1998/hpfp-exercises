@@ -1,0 +1,36 @@
+Review of types
+
+1. d)
+2. b)
+3. d)
+4. b)
+
+Review currying
+
+flippy :: String -> String -> String
+appedCatty :: String -> String
+frappe :: String -> String
+
+1. "woops mrow woohoo!"
+2. "1 mrow haha"
+3. "woops mrow 2 mrow haha"
+4. "woops mrow blue mrow haha"
+5. "pink mrow haha mrow green mrow woops mrow blue"
+6. "are mrow Pugs mrow awesome"
+
+Recursion
+
+1.
+15 dividedBy 2 == 15 - 2, 13 (subtracted 1 time)
+   	       	     - 2, 11 (subtracted 2 times)
+		     - 2, 9  (subtracted 3 times)
+		     - 2, 7  (subtracted 4 times)
+		     - 2, 5  (subtracted 5 times)
+		     - 2, 3  (subtracted 6 times)
+		     - 2, 1  (subtracted 7 times)
+
+Returns (7, 1)
+
+2. 3. Check source files
+
+Fixing dividedBy
