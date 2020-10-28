@@ -7,3 +7,5 @@ rMul' x y = go x y 0
   where go x y result
           | y == 0 = result
           | otherwise = go x (y - 1) (result + x)
+
+-- gotta do more stuff in case negatives are involved
