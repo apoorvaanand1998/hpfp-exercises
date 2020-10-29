@@ -1,0 +1,22 @@
+Will it blow up?
+
+1. Bottom
+2. Return
+3. Bottom
+4. Return
+5. Bottom
+6. Return
+7. Bottom
+8. Return
+9. Return
+10. Bottom
+
+Is it in normal form?
+
+1. WHNF, NF
+2. WHNF
+3. Neither
+4. Neither
+5. Neither
+6. Neither
+7. WHNF
