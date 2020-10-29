@@ -1,0 +1,10 @@
+1. Bottom
+2. Return
+3. Bottom
+4. "This function returns a list of Bools indicating
+   whether each character in a string is a vowel or not"
+5. a) [1,4,9,16,25,36,49,64,81,100]
+   b) [1, 10, 20]
+   c) [15, 15, 15]
+6. import Data.Bool (bool)
+   map (\x -> bool x (-3) (x == 3)) [1..10]
