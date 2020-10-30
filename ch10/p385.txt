@@ -1,0 +1,18 @@
+1. b) and c)
+
+2. (((1 * 1) * 2) * 3)
+
+3. c)
+
+4. a)
+
+5. a) foldr (++) "" ["woot", "WOOT", "woot"]
+   b) foldr max "" (words "fear is the little death")
+   c) foldr (&&) True [False, True]
+   d) No. foldr (||) False [False, True]
+   e) foldr ((++) . show) "" [1..5]
+   f) foldr (flip const) 'a' [1..5]
+   g) foldl const 0 "tacos" / foldr (flip const) 0 "tacos"
+   h) foldl const 0 "burritos"
+   i) foldr (flip const) 'z' [1..5]
+   
