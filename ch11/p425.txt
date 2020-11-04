@@ -1,0 +1,8 @@
+1. MakeExample :: Example,
+   "Data constructor not in scope: Example"
+
+2. It gives us the enumerations of Data constructors of
+   Example. It also tells us which typeclasses are an
+   instance of Example.
+
+3. MakeExample :: Int -> Example
