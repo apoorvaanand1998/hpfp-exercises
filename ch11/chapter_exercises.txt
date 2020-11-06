@@ -9,4 +9,4 @@ Ciphers - Check out cipher.hs
 
 As-patterns - Check out as_patterns.hs
 
-
+Language exercises - Check out lang.hs
