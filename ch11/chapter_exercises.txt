@@ -12,3 +12,5 @@ As-patterns - Check out as_patterns.hs
 Language exercises - Check out lang.hs
 
 Phone exercise - Check out phone_exercise.hs
+
+Hutton's razor - Check out razor.hs
