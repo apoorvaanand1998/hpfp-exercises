@@ -1,0 +1,8 @@
+Multiple choice
+
+1. a)
+2. c)
+3. b)
+4. c)
+
+Ciphers - Check out cipher.hs
