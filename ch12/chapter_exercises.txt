@@ -6,3 +6,5 @@ Determine the kinds
    f :: * -> *
 
 String processing - Check out string_processing.hs
+
+Validate the word - Check out val_word.hs
