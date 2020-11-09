@@ -32,4 +32,12 @@ maybeToList (Just x) = [x]
 -- 5.
 
 catMaybes :: [Maybe a] -> [a]
-catMaybes = concat. map listToMaybe . map []
+catMaybes = concat . map maybeToList
+
+-- 6.
+
+flipMaybe :: [Maybe a] -> Maybe [a]
+flipMaybe xs = if (length cm == length xs)
+               then (Just (cm))
+               else Nothing
+  where cm = catMaybes xs
