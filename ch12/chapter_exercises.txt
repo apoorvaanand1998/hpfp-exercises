@@ -1,0 +1,8 @@
+Determine the kinds
+
+1. a :: *
+
+2. a :: *
+   f :: * -> *
+
+String processing - Check out string_processing.hs
