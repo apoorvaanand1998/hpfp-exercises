@@ -10,3 +10,5 @@ String processing - Check out string_processing.hs
 Validate the word - Check out val_word.hs
 
 It's only Natural - Check out natural.hs
+
+Small library for Maybe - Check out maybe.hs
