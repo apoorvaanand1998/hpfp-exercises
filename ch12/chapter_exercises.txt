@@ -12,3 +12,5 @@ Validate the word - Check out val_word.hs
 It's only Natural - Check out natural.hs
 
 Small library for Maybe - Check out maybe.hs
+
+Small library for Either - Check out either.hs
