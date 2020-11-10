@@ -14,3 +14,5 @@ It's only Natural - Check out natural.hs
 Small library for Maybe - Check out maybe.hs
 
 Small library for Either - Check out either.hs
+
+Write your own iterate and unfoldr - Check out unfoldr.hs
