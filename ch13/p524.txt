@@ -1,0 +1,8 @@
+1. forever, when
+2. Data.Bits, Database.Blacktip.Types
+3. The datatypes defined for Chris's library
+4. a) MV - Control.Concurrent.MVar
+      FPC - Filesystem.Path.CurrentOS
+      CC - Control.Concurrent
+   b) Filesystem
+   c) Control.Monad
