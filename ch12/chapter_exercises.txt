@@ -16,3 +16,5 @@ Small library for Maybe - Check out maybe.hs
 Small library for Either - Check out either.hs
 
 Write your own iterate and unfoldr - Check out unfoldr.hs
+
+Finally something other than a list - Check out binary_tree.hs
