@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/spirit/Desktop/hpfp-exercises/ch14/addition/.stack-work/install/x86_64-linux-tinfo6/6fc70b9653f5f9dab71f298627c8a602fe911c1e94e8f2ee3240c74324d0f7bd/8.8.4/bin"
-libdir     = "/home/spirit/Desktop/hpfp-exercises/ch14/addition/.stack-work/install/x86_64-linux-tinfo6/6fc70b9653f5f9dab71f298627c8a602fe911c1e94e8f2ee3240c74324d0f7bd/8.8.4/lib/x86_64-linux-ghc-8.8.4/addition-0.1.0.0-AGPHJiZDAdW6NCnOI9UGYk"
+libdir     = "/home/spirit/Desktop/hpfp-exercises/ch14/addition/.stack-work/install/x86_64-linux-tinfo6/6fc70b9653f5f9dab71f298627c8a602fe911c1e94e8f2ee3240c74324d0f7bd/8.8.4/lib/x86_64-linux-ghc-8.8.4/addition-0.1.0.0-70fIDO7v3rIGwjNhBquC38"
 dynlibdir  = "/home/spirit/Desktop/hpfp-exercises/ch14/addition/.stack-work/install/x86_64-linux-tinfo6/6fc70b9653f5f9dab71f298627c8a602fe911c1e94e8f2ee3240c74324d0f7bd/8.8.4/lib/x86_64-linux-ghc-8.8.4"
 datadir    = "/home/spirit/Desktop/hpfp-exercises/ch14/addition/.stack-work/install/x86_64-linux-tinfo6/6fc70b9653f5f9dab71f298627c8a602fe911c1e94e8f2ee3240c74324d0f7bd/8.8.4/share/x86_64-linux-ghc-8.8.4/addition-0.1.0.0"
 libexecdir = "/home/spirit/Desktop/hpfp-exercises/ch14/addition/.stack-work/install/x86_64-linux-tinfo6/6fc70b9653f5f9dab71f298627c8a602fe911c1e94e8f2ee3240c74324d0f7bd/8.8.4/libexec/x86_64-linux-ghc-8.8.4/addition-0.1.0.0"
